@@ -1,11 +1,37 @@
-.title {
-    background: #EDEDED;
-    color:#000000;
+.coltitle {
+    background: #2d2e2e;
+    color: #dedede;
     font-weight: bold;
     font-size:15px;
-    border-bottom: 5px solid #D9DEE4;
+    border-bottom: 5px solid #dedede;
     line-height: 0.7;
-    width: 100%;
+    width: 98%;
     padding: 1px;
     padding-left:25px;
+    position: absolute
+}
+.userIcon {    
+    position: absolute;
+    right: 30px;
+    top: 13px;
+    display: inline-block;
+}
+
+button{
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.profile{
+    height: 35px;
+    width: 35px;
+    border-radius: 25px;
+    border: 1px solid #000000;
+}
+
+.material-icons{
+    font-size: 30px;
+    padding-right: 20px;
+    color: #dedede;
 }

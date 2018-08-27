@@ -12,6 +12,7 @@ import { AdminComponent } from './admin/admin.component';
 
 // Services
 import {HttpClient, HttpClientModule} from '@angular/common/http';
+import { UserprofileComponent } from './userprofile/userprofile.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
     DriverComponent,
     PassengerComponent,
     AdminComponent,
-    AppheadComponent
+    AppheadComponent,
+    UserprofileComponent
   ],
   imports: [
     BrowserModule,
